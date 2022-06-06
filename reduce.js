@@ -5,7 +5,7 @@ let sum = nums.reduce((acc, curr) => {
         "Accumulator: ", acc,
         "Current Value: ", curr,
         "Total: ", acc + curr
-    )
+    );
     return acc + curr;
 }, 0); // be explicit with the starting value within the array
 console.log(sum);
